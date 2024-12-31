@@ -49,11 +49,12 @@ const SearchSection = () => {
           {/* Call-to-Action Buttons */}
           <div className="mt-6 flex justify-center gap-4">
             <button className="bg-white text-indigo-500 px-6 py-3 rounded-full shadow-md font-semibold hover:bg-gray-100 transition-all duration-300">
-              Learn More
+                <a href="https://gamma.app/docs/GoHelper-2he7grt10vv36vr?mode=doc" target="_blank" rel="noopener noreferrer">Learn More</a>
+              
             </button>
-            <button className="bg-indigo-700 text-white px-6 py-3 rounded-full shadow-md font-semibold hover:bg-indigo-800 transition-all duration-300">
+            {/* <button className="bg-indigo-700 text-white px-6 py-3 rounded-full shadow-md font-semibold hover:bg-indigo-800 transition-all duration-300">
               Get Started
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
