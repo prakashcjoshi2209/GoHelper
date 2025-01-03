@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -52,9 +50,7 @@ const SearchSection = () => {
                 <a href="https://gamma.app/docs/GoHelper-2he7grt10vv36vr?mode=doc" target="_blank" rel="noopener noreferrer">Learn More</a>
               
             </button>
-            {/* <button className="bg-indigo-700 text-white px-6 py-3 rounded-full shadow-md font-semibold hover:bg-indigo-800 transition-all duration-300">
-              Get Started
-            </button> */}
+           
           </div>
         </div>
       </div>
